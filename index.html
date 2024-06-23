@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>WEB GIS KEAMANAN KABUPATEN BANTUL</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Bantul Security Map</h1>
+        <span>.</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Gallery</a></li>
+          <li><a href="#team">Dashboard</a></li>
+          <li class="dropdown"><a href="#"><span>DataSet</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Kantor Polisi</a></li>
+              <li class="dropdown"><a href="#"><span>Instansi TNI </span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Babinsa</a></li>
+                  <li><a href="#">Kodim</a></li>
+                  <li><a href="#">Koramil</a></li>
+                  <li><a href="#">Pangkalan TNI AL</a></li>
+                  <li><a href="#">Pengadilan Militer</a></li>
+                  <li><a href="#">Satpol Air</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Pos Keamanan</a></li>
+              <li><a href="#">Kantor Pertahanan</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <img src="https://cdn.wallpapersafari.com/4/67/mCPsoQ.jpg" alt="" data-aos="fade-in">
+
+      <div class="container">
+
+        <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-xl-6 col-lg-8">
+            <h2>Bantul Security Map<span>.</span></h2>
+            <p>Kawal Keselamatan Massyarakat Bantul. Aman dan terpercaya bersama Bantul Security Map!!</p>
+          </div>
+        </div>
+
+        <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <i class="bi bi-binoculars"></i>
+              <h3><a href="">Data</a></h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon-box">
+              <i class="bi bi-bullseye"></i>
+              <h3><a href="">Maps</a></h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <i class="bi bi-fullscreen-exit"></i>
+              <h3><a href="">Dashboard</a></h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon-box">
+              <i class="bi bi-card-list"></i>
+              <h3><a href="">Informasi</a></h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
+            <div class="icon-box">
+              <i class="bi bi-gem"></i>
+              <h3><a href="">Aman</a></h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-6 order-1 order-lg-1">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.TSfv3FZuLF--DlMuL3oawQHaEK&pid=Api&P=0&h=220" class="img-fluid" alt="" style="width: 500px; height: 370px;">
+          </div>
+          <div class="col-lg-6 order-2 order-lg-2">
+            <div class="content">
+              <h3>Pusat Keamanan Kabupaten Bantul</h3>
+              <p class="fst-italic">
+                Kantor Keamanan di Bantul adalah titik penting dalam jaringan keamanan wilayah. Kantor Keamanan meliputi seluruh rangkaian lembaga keamanan:
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all"></i> <span>Kantor Instansi TNI.</span></li>
+                <li><i class="bi bi-check2-all"></i> <span>Kantor Polisi.</span></li>
+                <li><i class="bi bi-check2-all"></i> <span>Pos Keamanan.</span></li>
+              </ul>
+              <p>
+                Keamanan di Kabupaten Bantul mencakup area pemukiman warga hingga garis pantai, dengan fokus utama pada perlindungan masyarakat secara menyeluruh. 
+                Upaya ini dirancang untuk memberikan perlindungan dan memastikan keselamatan masyarakat, baik di daratan maupun di perairan. 
+                Hal tersebut menjadi bagian dari misi dalam menjaga ketertiban dan keamanan publik di wilayah Bantul.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/LOGO-KOREM-072.png/440px-LOGO-KOREM-072.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Indonesian_Military_Police_logo.png/798px-Indonesian_Military_Police_logo.png?20180301110127" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://yt3.ggpht.com/ytc/AKedOLRJ4atHsBQHSLIVyju11YV0QUP-bML5vBQTc1u5iw=s900-c-k-c0x00ffffff-no-rj" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://1.bp.blogspot.com/-rZCzovQX_NE/VjUct3FGWpI/AAAAAAAAFwU/Tc0MyG-wIVs/s1600/logo-TNI-AU-big.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://logodix.com/logo/2108823.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://th.bing.com/th/id/OIP.39ta08EBrnwIGVzMccfWdgAAAA?rs=1&pid=ImgDetMain" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://th.bing.com/th/id/OIP.1mcry8f_hY-UleOvfWFVywHaIo?rs=1&pid=ImgDetMain" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://th.bing.com/th/id/R.116c7b46675df0274c653d1610f46d89?rik=ndipuvOQPV1%2f6g&riu=http%3a%2f%2f4.bp.blogspot.com%2f-bkdgxD22Pa0%2fThQ440GWkpI%2fAAAAAAAAD7s%2fRy1r-wjYuBk%2fs1600%2flogo%2bpolisi%2blalu%2blintas.jpg&ehk=km6yf2LsMiQImDsouRt2DWlf9j4RW0pv3h3kUf%2bY2OQ%3d&risl=&pid=ImgRaw&r=0" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="https://pre00.deviantart.net/1b99/th/pre/f/2016/297/0/f/pocil_lantas_2016__promoter__gasum___copy_by_winarasetyo-dam2isa.png" alt=""></div>
+          <div class="col-lg-6">
+
+            <div class="features-item d-flex ps-0 ps-lg-3 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-archive flex-shrink-0"></i>
+              <div>
+                <h4>Visi & Misi</h4>
+                <p>Terwujudnya Indonesia yang Aman dan Tertib guna mendukung Visi dan Misi 
+                  Presiden dan Wakil Presiden : "Indonesia Maju yang Berdaulat, Mandiri, dan Berkepribadian Berlandaskan Gotong-Royong".</p>
+              </div>
+            </div><!-- End Features Item-->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-basket flex-shrink-0"></i>
+              <div>
+                <h4>Tugas & Fungsi</h4>
+                <p>Kepolisian bertugas menjaga keamanan dan ketertiban masyarakat, menegakkan hukum, serta memberikan perlindungan dan pelayanan kepada masyarakat. 
+                  TNI bertugas untuk mempertahankan kedaulatan negara, menjaga keutuhan wilayah, serta melindungi segenap bangsa dari ancaman dan gangguan. 
+               </p>
+              </div>
+            </div><!-- End Features Item-->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-broadcast flex-shrink-0"></i>
+              <div>
+                <h4>Mitra</h4>
+                <p>
+                  TNI dan Polri memiliki berbagai mitra yang mencakup lembaga pemerintah, organisasi internasional, dan komunitas masyarakat. 
+                  Di tingkat nasional, bekerja sama dengan Badan Nasional Penanggulangan Terorisme (BNPT), 
+                  Badan Nasional Penanggulangan Bencana (BNPB), dan Badan Intelijen Negara (BIN) untuk menangani isu-isu keamanan dan ketahanan. </p>
+              </div>
+            </div><!-- End Features Item-->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-camera-reels flex-shrink-0"></i>
+              <div>
+                <h4>Report</h4>
+                <p>Kepolisian dan TNI selalu memberikan infromasi serta merta, informasi setiap saat, informasi berkala, hingga informasi dikecualikan yang setiap komponen diatur dalam undang-undang dan peraturan</p>
+              </div>
+            </div><!-- End Features Item-->
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Layanan Masyarakat</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-activity"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Persuratan Resmi</h3>
+              </a>
+              <p>Kepolisian menyediakan berbagai layanan untuk masyarakat, termasuk pengurusan SKCK, SP2HP, SIM, BPKB/STNK, dan SPKT. 
+                Layanan ini bertujuan untuk memudahkan masyarakat dalam memenuhi berbagai kebutuhan administrasi yang berhubungan dengan kepolisian. 
+                Dengan adanya layanan ini, masyarakat dapat lebih mudah dan cepat dalam mengurus dokumen-dokumen penting.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-broadcast"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Pengadaan Barang/Jasa</h3>
+              </a>
+              <p>Kepolisian dan Instansi Terkait memberikan informasi mengenai pengadaan barang serta jasa yang dibutuhkan oleh masyarakat. 
+                Contoh Pengadaan jasa konsultan pengawas konstruksi hingga pengadaan bahan makan</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-easel"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Pengamanan Obyek Khusus</h3>
+              </a>
+              <p>Sesuai dengan perintah perundangan, Polri berkewajiban untuk melaksanakan pengamanan obyek-obyek khusus.
+                Obyek khusus adalah obyek yang karena kedudukan dan kepentingannya memerlukan perhatian dan tindakan pengamanan.
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-bounding-box-circles"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Pengawalan Jalan</h3>
+              </a>
+              <p>Peraturan perundang-undangan yang ada memberikan peluang bagi orang tertentu atau kendaraan yang digunakan bagi keperluan tertentu mendapatkan 
+                prioritas menggunakan jalan untuk berlalu lintas. Hak utama itu diatur dalam Peraturan Pemerintah (PP) Nomor 43 Tahun 1993.</p>
+              <a href="service-details.html" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-calendar4-week"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Izin Keramaian</h3>
+              </a>
+              <p>Izin keramaian dimaksudkan untuk menjaga suasana yang kondusif bagi semua pihak. 
+                Kelancaran suatu acara keramaian pasti harus didukung dengan persiapan pengamanan yang pas. 
+                Pemberian izin dipertimbangkan dengan resiko-resiko yang mungkin timbul, kesiapan kuantitas personil, 
+                sarana dan prasarana Polri untuk antisipasinya.
+                </p>
+              <p>Juklap Kapolri No. Pol / 02 / XII / 95 tentang perizinan dan pemberitahuan kegiatan masyarakat.</p>
+              <a href="service-details.html" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-chat-square-text"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Pengaduan Masyarakat</h3>
+              </a>
+              <p>Masyarakat memiliki hak untuk mengajukan pengaduan jika mengalami masalah yang mengancam rasa aman. 
+                Kepolisian, TNI, dan instansi terkait wajib menindaklanjuti pengaduan tersebut dengan tindakan yang sesuai.  </p>
+              <a href="service-details.html" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section">
+
+      <img src="https://thumb.viva.co.id/media/frontend/thumbs3/2020/08/03/5f27316ed2c88-viva-militer-prajurit-kostrad-tni_665_374.jpg" alt="">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Call To Action</h3>
+              <p>Informasi Cepat Pertahanan dan Keamanan Wilayah Kabupaten Bantul.</p>
+              <a class="cta-btn" href="#">Call To Action</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Galerry</h2>
+        <p>Check Kegiatan Keamanan Bantul</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">TNI</li>
+            <li data-filter=".filter-product">POLICE</li>
+            <li data-filter=".filter-branding">SATPOL AIR</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="https://asset-2.tstatic.net/jogja/foto/bank/images/Danlanud-Adisutjipto-Marsma-TNI-Dedy-Susanto-tengah-di-kegiatan-TNI-AU-Peduli-Gempa.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>TNI AU Respons Dampak Gempa Bantul</h4>
+                <p>TNI AU mengirimkan bantuan pada masyarakat ke Gunung Kidul</p>
+                <a href="https://asset-2.tstatic.net/jogja/foto/bank/images/Danlanud-Adisutjipto-Marsma-TNI-Dedy-Susanto-tengah-di-kegiatan-TNI-AU-Peduli-Gempa.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="https://asset-2.tstatic.net/jogja/foto/bank/images/berhasil-ungkap-kasus-kejahatan-jalanan-12-polisi-bantul-dapat-penghargaan.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Kesuksesan Polisi Bantul</h4>
+                <p>Kepolisian Bantul berhasil mengungkap kasus kejahatan jalanan, 12 polisi dapat penghargaan</p>
+                <a href="ahttps://asset-2.tstatic.net/jogja/foto/bank/images/berhasil-ungkap-kasus-kejahatan-jalanan-12-polisi-bantul-dapat-penghargaan.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="https://tse3.mm.bing.net/th?id=OIP.HYJgSDaP1UMOxR-8B1GD-wHaEK&pid=Api&P=0&h=220" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Peresmian Satpol Air</h4>
+                <p>Dermaga Satpol Air telah diresmikan</p>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.HYJgSDaP1UMOxR-8B1GD-wHaEK&pid=Api&P=0&h=220" class="img-fluid" alt="">
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="https://th.bing.com/th/id/OIP.bs10ngfBK0zDYrBI_udeuwHaFB?rs=1&pid=ImgDetMain" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Kunjungan Latihan Bantul</h4>
+                <p>Pangkalan TNI AL Yogyakarta Gelar LAtihan SAR di Bantul</p>
+                <a href="https://th.bing.com/th/id/OIP.bs10ngfBK0zDYrBI_udeuwHaFB?rs=1&pid=ImgDetMain" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="https://cdn.idntimes.com/content-images/community/2023/02/img-20230223-113833-00863b005cd6be2443bf68a022f0550e.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Pemeriksaan Polisi</h4>
+                <p>Polisi berhasil temukan 3 hektar lahan ganja</p>
+                <a href="https://cdn.idntimes.com/content-images/community/2023/02/img-20230223-113833-00863b005cd6be2443bf68a022f0550e.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="https://www.xtimenews.com/wp-content/uploads/2019/05/IMG-20190518-WA0036.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Bagi-bagi Takjil</h4>
+                <p>Personil Satpol Air bagikan takjil di tengah laut</p>
+                <a href="https://www.xtimenews.com/wp-content/uploads/2019/05/IMG-20190518-WA0036.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="https://i.ytimg.com/vi/WH6k6uNE_tE/maxresdefault.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Ulang Tahun TNI</h4>
+                <p>Kejutan HUT TNI dari Bupato dan Kapolres Bantul</p>
+                <a href="https://i.ytimg.com/vi/WH6k6uNE_tE/maxresdefault.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="https://www.menpan.go.id/site/images/berita_foto/2020/20201206_-_Polres_Bantul_2.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Kunjungan Kerja</h4>
+                <p>Kementerian Pendayagunaan Aparatur Negara dan Reformasi Birokrasi melakukan kunjungan kerja ke sentral Bantul</p>
+                <a href="https://www.menpan.go.id/site/images/berita_foto/2020/20201206_-_Polres_Bantul_2.jpeg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="https://tse3.mm.bing.net/th?id=OIP.Maz4KdZ2xvRkePHx5P3VswHaEk&pid=Api&P=0&h=220" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Bantuan Satpol Air</h4>
+                <p>Satpol Air membantu warga korban banjir menuju TPS </p>
+                <a href="https://tse3.mm.bing.net/th?id=OIP.Maz4KdZ2xvRkePHx5P3VswHaEk&pid=Api&P=0&h=220" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 align-items-center justify-content-between">
+
+          <div class="col-lg-5">
+            <img src="https://image1.slideserve.com/1892325/peta-bantul-l.jpg" alt="" class="img-fluid">
+          </div>
+
+          <div class="col-lg-6">
+
+            <h3 class="fw-bold fs-2 mb-3">Persebaran Kantor serta Pos Keamanan Kabupaten Bantul</h3>
+            <p>
+              Kabupaten Bantul, yang terletak di Provinsi Daerah Istimewa Yogyakarta, memiliki jaringan kantor dan pos keamanan yang 
+              tersebar di berbagai titik strategis untuk memastikan keamanan dan kenyamanan warganya. Persebaran ini mencakup pos keamanan, kantor polisi, 
+              dan kantor instansi tni lainnya yang bertugas untuk menjaga ketertiban dan menanggulangi berbagai permasalahan keamanan.
+            </p>
+
+            <div class="row gy-4">
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-emoji-smile flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="21" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Instansi TNI</strong> <span></span></p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-journal-richtext flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Pos Keamanan</strong> <span></span></p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-headset flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="19" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Kantor Polisi</strong> <span></span></p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-people flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Satpol Air</strong> <span></span></p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://th.bing.com/th/id/OIP.Y_tnatc7PaDkoJuXifROAwAAAA?rs=1&pid=ImgDetMain" class="testimonial-img" alt="">
+                <h3>BABINSA</h3>
+                <h4>Bintara Pembina Desa (BABINSA)</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Aparat TNI yang bertugas di tingkat desa atau kelurahan untuk membantu menjaga keamanan dan ketertiban, serta memberikan pembinaan kepada masyarakat.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://1.bp.blogspot.com/-rtNuWk1tHJY/YDj1Gf1LFWI/AAAAAAAAH_4/493aBJFD-P8BJp63NcbRPcVoRstNBbhYACLcBGAsYHQ/s1410/logo-korem-0818.jpg" class="testimonial-img" alt="">
+                <h3>KODIM</h3>
+                <h4>
+                  Komando Distrik Militer (KODIM)</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Satuan teritorial TNI Angkatan Darat yang bertugas di tingkat kabupaten atau kota. KODIM berfungsi sebagai pusat komando dan pengendalian operasional TNI di wilayah tersebut, dengan tugas utama melakukan pembinaan teritorial, </span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://img2.pngdownload.id/20180426/vuw/kisspng-indonesian-national-armed-forces-indonesian-army-i-tulisan-shuang-xi-5ae1600502f705.4565279615247196210122.jpg" class="testimonial-img" alt="">
+                <h3>TNI</h3>
+                <h4>
+                  Tentara Nasional Indonesia (TNI)</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Angkatan bersenjata Republik Indonesia yang bertugas menjaga dan mempertahankan kedaulatan serta keutuhan wilayah negara. TNI terdiri dari tiga matra utama: TNI Angkatan Darat (AD), TNI Angkatan Laut (AL), dan TNI Angkatan Udara (AU).</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://1.bp.blogspot.com/-dQhtgPbi28Q/VtVGo-z6-kI/AAAAAAAAA2Q/y2TMMwMH66Q/s1600/Logo%2BPOLRI%2B-%2BKepolisian%2BRepublik%2BIndonesia.jpg" class="testimonial-img" alt="">
+                <h3>POLISI</h3>
+                <h4>Kepolisian Negara Republik Indonesia</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Polisi adalah aparat penegak hukum yang bertugas menjaga keamanan dan ketertiban masyarakat, menegakkan hukum, serta memberikan perlindungan, pengayoman, dan pelayanan kepada masyarakat.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://th.bing.com/th/id/OIP.YJMwrvWxCaSjudiwXNNmqgHaIC?rs=1&pid=ImgDetMain" class="testimonial-img" alt="">
+                <h3>SATPOL AIR</h3>
+                <h4>Satuan Polisi Perairan (Satpol Air)</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Bagian dari Kepolisian Negara Republik Indonesia (Polri) yang memiliki tugas khusus dalam mengawasi dan menegakkan hukum di perairan Indonesia. Satpol Air bertanggung jawab dalam menjaga keamanan, ketertiban, serta keselamatan pelayaran dan aktivitas perairan lainnya.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+        <!-- Team Section -->
+        <section id="team" class="team section">
+
+          <!-- Section Title -->
+          <div class="container section-title" data-aos="fade-up">
+            <h2>DASHBOARD</h2>
+            <p>PETA BIDANG SEBARAN POS KETAHANAN DAN KEAMANAN KABUPATEN BANTUL </p>
+          </div><!-- End Section Title -->
+
+          <!-- Embedded Dashboard -->
+          <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <iframe style="border: none;" height="1000" width="100%" src="http://localhost:8081/mapstore/dashboard-embedded.html#/39"></iframe>
+          </div><!-- End Embedded Dashboard -->
+
+        </section><!-- /Team Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Contact Us</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+          <iframe style="border:0; width: 100%; height: 270px;" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.5997389937377!2d110.33173561477769!3d-7.885682294326822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7ba49d06e8e6b1%3A0xf8c4b5a1b5e7e12c!2sBantul%2C%20Bantul%20Regency%2C%20Special%20Region%20of%20Yogyakarta!5e0!3m2!1sen!2sid!4v1626510385934!5m2!1sen!2sid" 
+                  frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div><!-- End Google Maps -->
+        
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p>Bantul, Daerah Istimewa Yogyakarta</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p> (0274) 367111</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>humaspolresbantuldiy@gmail.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Bantul Security Map.</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>TNI dan Kepolisian</p>
+              <p>Kabupaten Bantul</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>(0274) 367111</span></p>
+              <p><strong>Email:</strong> <span>humaspolresbantuldiy@gmail.com</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> About</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Dashboard</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Layanan</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Pengamanan Obyek Khusus</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Pengawalan Jalan</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Pengaduan Masyarakat</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Pengaduan Barang/Jasa</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> UU dan Peraturan</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4>Informasi Lanjutan</h4>
+            <p>Ikuti informasi tentang keamanan wilayah Bantul dengan kami!!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Logout"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your logout request has been sent. Thank you!</div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="container text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Umilatifah</strong> <span>All Rights Reserved</span></p>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">Umi Latifah Yuntriana Sari</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
